@@ -1,0 +1,31 @@
+{% overextends "media_includes.html" %}
+
+{% block admin_css %}
+    {{ block.super }}
+    <link href="{{ STATIC_URL }}schnadmin/schnadmin.css" type="text/css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}chosen/chosen.css" type="text/css" rel="stylesheet">
+{% endblock %}
+
+
+
+
+{% block admin_js %}
+    {{ block.super }}
+    <script type="text/javascript" src="{{ STATIC_URL }}chosen/chosen.jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.chosen').each(function() {
+                var elem = $(this)
+                elem.closest('.form-row').css('overflow', 'visible')
+                elem.chosen()
+            })
+        })
+    </script>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('body').addClass('django-admin')
+        })
+    </script>
+{% endblock %}

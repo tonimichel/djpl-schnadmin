@@ -1,0 +1,242 @@
+body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: url(cork_1.png);}
+
+
+#content {background:#fff; padding:22px; margin:15px;}
+
+#content-related {margin-left:22px; float:left;}
+.dashboard #content {width:auto;}
+.dashboard #content-main {width:500px;}
+.dashboard .module {margin-bottom:10px;}
+
+
+#header {background:#666;}
+.module h2, .module caption, .inline-group h2 {
+    background-image: -moz-linear-gradient(top, #eee, #ccc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#ccc));
+    background-image: -webkit-linear-gradient(top, #eee, #ccc);
+    background-image: -o-linear-gradient(top, #eee, #ccc);
+    background-image: linear-gradient(to bottom, #eee, #ccc);
+    color:#666;
+}
+.row1 {background:#F2F2F2}
+
+/* chosen stuff
+----------------------------------------------------------- */
+
+.chzn-container {width:70% !important; font-size:11px !important;}
+
+/* increase padding
+----------------------------------------------------------- */
+.module table td {padding:10px;}
+.module table th {padding:10px; font-weight:normal; }
+.module h2, .module caption, .inline-group h2 {padding: 10px 5px 10px 12px; }
+.inline-related h3{padding-left:12px;}
+
+
+.module, .inline-group {border: 1px solid #EEE;}
+.inline-group {margin:0px;}
+.module {margin-bottom:0px;}
+.submit-row {margin-top:0px; border-color:#eee;}
+
+
+fieldset.collapsed h2 {background-color:#fff;}
+
+#content-related .module h2 {background-color:#fff;}
+
+
+#changelist table thead th {padding:2px;}
+
+/* Style headlines
+----------------------------------------------------------- */
+
+.django-admin h1 {font-weight:normal; font-size:28px; margin-bottom:12px; margin-top:22px;}
+.django-admin h2 {font-weight:normal; font-size:22px;}
+#recent-actions-module h2 {font-size: inherit;}
+
+
+/* Breadcrumbs
+----------------------------------------------------------- */
+div.breadcrumbs {padding-left: 17px;}
+
+
+
+/* ADMIN INLINES
+------------------------------------------*/
+.inline-group .aligned label {width:15em;}
+.inline-group .delete label {width:auto; display:inline;}
+
+
+/* messagelist
+----------------------------------------------------------- */
+ul.messagelist {margin:0px; padding:0px;}
+ul.messagelist li {margin:0px;}
+
+
+/* Forms
+----------------------------------------------------------- */
+
+form  h2 {font-size:16px !important;}
+
+fieldset.module h2 { font-size:16px;} 
+
+fieldset .description {padding: 22px 12px 22px 12px;background: whiteSmoke; border-bottom: 1px solid #EEE;}
+
+.form-row { background:#fbfbfb; }
+
+input[type="text"], 
+input[type="password"], textarea {
+    padding:8px; color:#555; border: 1px solid #ccc; 
+    -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; width:18em;
+}
+input[type="checkbox"] {margin-top:-1px;}
+
+label {display:inline !important;}
+
+.aligned label {padding: 9px 10px 0 0; width: 15em; font-size:100%;}
+form .aligned p, form .aligned ul { margin-left: 15em}
+
+.required label, label.required {color: #888 !important;}
+
+/* focus */
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, 
+input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus,
+input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus,
+input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: rgba(82, 168, 236, 0.8); outline: 0; outline: thin dotted 9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+    background:#fbfbfb;
+}
+
+#changelist-search input[type="submit"] {padding: 1px 10px 1px 10px !important;}
+#changelist #toolbar form #searchbar {padding:3px;}
+
+
+/* The Login screen
+----------------------------------------------------------- */
+.login {height:auto;}
+.login #container {width:400px; min-width:400px;   -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.login #container #header { padding-left:27px; width: auto;
+    -webkit-border-radius: 4px 4px 0px 0px;-moz-border-radius: 4px 4px 0px 0px;border-radius: 4px 4px 0px 0px;}
+.login #container #content{margin:0px; padding:0px;}
+.login #footer {padding:0px;}
+.login .submit-row {padding:8px 0px 8px 27px; background:#F6F7F8; border-top:1px solid #eee; 
+    -webkit-border-radius:  0px 0px 4px 4px;-moz-border-radius: 0px 0px 4px 4px;border-radius: 0px 0px 4px 4px;
+}
+.login form {margin:0px;}
+.login label {display:block;}
+.login input {display:block;}
+.login .form-row {padding: 14px 14px 8px 27px; float:none; background:#fbfbfb; width:auto;}
+
+.login .submit-row input[type="submit"] {padding:8px 12px 8px 12px!important; }
+.login .submit-row label {display:none; position:absolute;}
+.login .form-row label {float:none; display:block; text-align:left; font-size:12px; line-height:1.4;}
+.login .form-row #id_username, .login .form-row #id_password {width:288px;}
+
+.login .errornote {border:0px; border-bottom:1px solid red; padding:8px 12px 8px 47px; background-position: 25px 8px; }
+
+
+
+/* Resetting weired object-tools styles
+---------------------------------------- */
+.object-tools,
+.object-tools li {margin:0px; padding:0px;}
+.object-tools li, .object-tools a:hover, .object-tools li:hover,
+.object-tools a:link, .object-tools a:visited {
+    display: inline;float: inherit; background: none ; color: inherit; padding: inherit;
+    margin-left: inherit;height: inherit;
+}
+.object-tools li a {display:inline-block !important;}
+.object-tools {
+    float: none;position: relative; margin-top: inherit; margin-bottom: inherit;
+    margin-bottom:10px;
+}
+
+
+
+.submit-row input[type="submit"], 
+.submit-row input[type="button"],
+input[type="submit"], input[type="button"],
+.submit-row a.deletelink, 
+.django-admin .object-tools li a:link, 
+.django-admin .object-tools li a:visited {
+    padding: 12px 22px 12px 22px !important;font-size: 12px;line-height: 18px;text-align: center; 
+    vertical-align: middle; cursor: pointer; color: #333; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    background-color: whiteSmoke;
+    background-image: -moz-linear-gradient(top, white, #E6E6E6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+    background-image: -o-linear-gradient(top, white, #E6E6E6);
+    background-image: linear-gradient(to bottom, white, #E6E6E6);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    border-color: #E6E6E6 #E6E6E6 #BFBFBF; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    border: 1px solid #CCC; border-bottom-color: #B3B3B3;
+    -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+.submit-row p.deletelink-box {margin-top:0px;}
+.submit-row a.deletelink {display:block; 
+    color: white; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); background-color: #DA4F49;
+    background-image: -moz-linear-gradient(top, #EE5F5B, #BD362F);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EE5F5B), to(#BD362F));
+    background-image: -webkit-linear-gradient(top, #EE5F5B, #BD362F);
+    background-image: -o-linear-gradient(top, #EE5F5B, #BD362F);
+    background-image: linear-gradient(to bottom, #EE5F5B, #BD362F);
+}
+
+.submit-row input[type="submit"]:hover, 
+.submit-row input[type="button"]:hover,
+input[type="submit"]:hover, input[type="button"]:hover,
+.submit-row a.deletelink:hover,
+.django-admin .object-tools li a:hover {
+    color: #333; text-decoration: none; -webkit-transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
+    background-image: -moz-linear-gradient(top, #E6E6E6, white);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(white));
+    background-image: -webkit-linear-gradient(top, #E6E6E6, white);
+    background-image: -o-linear-gradient(top, #E6E6E6, white);
+    background-image: linear-gradient(to bottom, #E6E6E6, white);
+}
+.submit-row a.deletelink:hover {
+    color:#fff; background-color: #DA4F49;
+    background-image: -moz-linear-gradient(top, #BD362F, #EE5F5B);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#BD362F), to(#EE5F5B));
+    background-image: -webkit-linear-gradient(top, #BD362F, #EE5F5B);
+    background-image: -o-linear-gradient(top, #BD362F, #EE5F5B);
+    background-image: linear-gradient(to bottom, #BD362F, #EE5F5B);
+}
+
+.django-admin .object-tools li a.addlink {
+    background-color: #5BB75B;
+    color: #fff;
+    text-shadow:none;
+    background-image: -moz-linear-gradient(top, #62C462, #51A351);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62C462), to(#51A351));
+    background-image: -webkit-linear-gradient(top, #62C462, #51A351);
+    background-image: -o-linear-gradient(top, #62C462, #51A351);
+    background-image: linear-gradient(to bottom, #62C462, #51A351);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+    border-color: #51A351 #51A351 #387038;
+    }
+.django-admin .object-tools li a.addlink:hover {
+    background-image: -moz-linear-gradient(top, #51A351, #62C462);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#51A351), to(#62C462));
+    background-image: -webkit-linear-gradient(top, #51A351, #62C462);
+    background-image: -o-linear-gradient(top, #51A351, #62C462);
+    background-image: linear-gradient(to bottom, #51A351, #62C462);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff51a351', endColorstr='#ff62c462', GradientType=0);
+}
+
+
+
+
+
