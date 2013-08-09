@@ -27,13 +27,16 @@ body {color: #646464; font-size:12px; font-family: arial, sans-serif; background
 
 /* increase padding
 ----------------------------------------------------------- */
-.module table td {padding:10px;}
-.module table th {padding:10px; font-weight:normal; }
+.module table td {padding:10px; background:#F5F5F5; border-bottom:1px solid #eee;}
+.module table th {padding:10px; font-weight:normal; background:#fbfbfb; border-bottom:1px solid #eee; }
 .module h2, .module caption, .inline-group h2 {padding: 10px 5px 10px 12px; }
 .inline-related h3{padding-left:12px;}
 
+a.section:link,
+a.section:visited {color: #666;}
 
-.module, .inline-group {border: 1px solid #EEE;}
+
+.module, .inline-group {border: 1px solid #ddd;}
 .inline-group {margin:0px;}
 .module {margin-bottom:0px;}
 .submit-row {margin-top:0px; border-color:#eee;}
@@ -90,7 +93,7 @@ input[type="password"], textarea {
 }
 input[type="checkbox"] {margin-top:-1px;}
 
-label {display:inline !important;}
+label {}
 
 .aligned label {padding: 9px 10px 0 0; width: 15em; font-size:100%;}
 form .aligned p, form .aligned ul { margin-left: 15em}
