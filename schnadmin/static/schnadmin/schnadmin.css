@@ -20,6 +20,12 @@ body {color: #646464; font-size:12px; font-family: arial, sans-serif; background
 }
 .row1 {background:#F2F2F2}
 
+
+/* Enlarge password change link in user admin dialog
+----------------------------------------------------------- */
+.form-row.field-password .help a {font-weight:bold; font-size:17px;}
+
+
 /* chosen stuff
 ----------------------------------------------------------- */
 
@@ -97,6 +103,8 @@ label {}
 
 .aligned label {padding: 9px 10px 0 0; width: 15em; font-size:100%;}
 form .aligned p, form .aligned ul { margin-left: 15em}
+
+form .aligned p.help {padding-left: 26px;}
 
 .required label, label.required {color: #888 !important;}
 
