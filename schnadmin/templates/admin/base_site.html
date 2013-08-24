@@ -3,6 +3,15 @@
 
 {% block title %}Administration{% endblock %}
 
+{% block extrahead %}
+    {{ block.super  }}
+    <script>
+         $(function() {
+             $('ul.messagelist').fadeOut(6000)
+         })
+    </script>
+{% endblock %}
+
 {% block branding %}
     <a href="{{ ADMIN_URL }}" id="logo" ></a>
 {% endblock %}
