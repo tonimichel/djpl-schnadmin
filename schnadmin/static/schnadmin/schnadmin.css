@@ -1,15 +1,22 @@
 body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: url(cork_1.png);}
+body.login {background: url(cork_1.png);}
+
+#header {background: transparent;}
+#content {background:#fff; padding:22px; margin:15px; margin-top:1px;}
+
+/*  USer tools
+--------------------------------------------------------------*/
+#user-tools {color: #666; background:#fff; opacity:0.7;}
+#user-tools a {color: #5b80b2 !important;}
 
 
-#content {background:#fff; padding:22px; margin:15px;}
-
+    
 #content-related {margin-left:22px; float:left;}
+
 .dashboard #content {width:auto;}
 .dashboard #content-main {width:500px;}
 .dashboard .module {margin-bottom:10px;}
 
-
-#header {background:#666;}
 .module h2, .module caption, .inline-group h2 {
     background-image: -moz-linear-gradient(top, #eee, #ccc);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#ccc));
@@ -65,8 +72,10 @@ fieldset.collapsed h2 {background-color:#fff;}
 
 /* Breadcrumbs
 ----------------------------------------------------------- */
-div.breadcrumbs {padding-left: 17px;}
-
+div.breadcrumbs {
+    display:inline-block; margin-left:15px; padding:4px 22px 4px 22px; border:0px; font-size:13px;
+    opacity: 0.7;
+}
 
 
 /* ADMIN INLINES
@@ -228,23 +237,23 @@ input[type="submit"]:hover, input[type="button"]:hover,
     background-color: #5BB75B;
     color: #fff;
     text-shadow:none;
-    background-image: -moz-linear-gradient(top, #62C462, #51A351);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62C462), to(#51A351));
-    background-image: -webkit-linear-gradient(top, #62C462, #51A351);
-    background-image: -o-linear-gradient(top, #62C462, #51A351);
-    background-image: linear-gradient(to bottom, #62C462, #51A351);
+    background-image: -moz-linear-gradient(top, #96c221, #7ca217);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#96c221), to(#7ca217));
+    background-image: -webkit-linear-gradient(top, #96c221, #7ca217);
+    background-image: -o-linear-gradient(top, #96c221, #7ca217);
+    background-image: linear-gradient(to bottom, #96c221, #7ca217);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
-    border-color: #51A351 #51A351 #387038;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff96c221', endColorstr='#ff7ca217', GradientType=0);
+    border-color: #7ca217 #7ca217 #387038;
     }
 .django-admin .object-tools li a.addlink:hover {
-    background-image: -moz-linear-gradient(top, #51A351, #62C462);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#51A351), to(#62C462));
-    background-image: -webkit-linear-gradient(top, #51A351, #62C462);
-    background-image: -o-linear-gradient(top, #51A351, #62C462);
-    background-image: linear-gradient(to bottom, #51A351, #62C462);
+    background-image: -moz-linear-gradient(top, #7ca217, #96c221);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7ca217), to(#96c221));
+    background-image: -webkit-linear-gradient(top, #7ca217, #96c221);
+    background-image: -o-linear-gradient(top, #7ca217, #96c221);
+    background-image: linear-gradient(to bottom, #7ca217, #96c221);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff51a351', endColorstr='#ff62c462', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7ca217', endColorstr='#ff96c221', GradientType=0);
 }
 
 
