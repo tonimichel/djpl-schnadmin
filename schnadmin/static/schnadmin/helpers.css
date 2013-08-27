@@ -1,0 +1,16 @@
+
+
+table.object-list {min-width: 600px;}
+table.object-list tr td,
+table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
+
+.custom-breadcrumbs {margin-bottom:20px; }
+.custom-breadcrumbs a, .custom-breadcrumbs span {
+    font-size: 25px; padding: 4px 12px 4px 4px; display:inline-block;
+}
+.custom-breadcrumbs a:after {
+    content: " >"
+}
+
+.custom-breadcrumbs a {background:#eee; border-right: 1px solid #ddd; }
+.custom-breadcrumbs span {background:#f5f5f5; border-left:1px solid #fff;}
