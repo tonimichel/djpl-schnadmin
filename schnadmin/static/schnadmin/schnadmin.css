@@ -4,6 +4,8 @@ body.login {background: url(cork_1.png);}
 #header {background: transparent;}
 #content {background:#fff; padding:22px; margin:15px; margin-top:1px;}
 
+#branding {min-height:100px;}
+
 /*  USer tools
 --------------------------------------------------------------*/
 #user-tools {color: #666; background:#fff; opacity:0.7;}
@@ -13,11 +15,11 @@ body.login {background: url(cork_1.png);}
 /* Message list
 --------------------------------------------------------------*/
 ul.messagelist {
-margin-left: 15px;
-display: inline-block;
-opacity: 0.7;
-margin-left:1px;
-position:absolute;
+    margin-left: 15px;
+    display: inline-block;
+    opacity: 0.7;
+    margin-left:1px;
+    position:absolute;
 }
 ul.messagelist li {
    padding: 4px 5px 3px 26px;
