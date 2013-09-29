@@ -1,10 +1,13 @@
 body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: url(cork_1.png);}
 body.login {background: url(cork_1.png);}
 
-#header {background: transparent;}
+#header {background: transparent; color: #646464;}
+#header a:link,
+#header a:visited {color: #5b80b2;}
 #content {background:#fff; padding:22px; margin:15px; margin-top:1px;}
 
-#branding {min-height:100px;}
+a#logo {font-size:33px; font-family:monospace; color: #646464 !important; display:block; margin:27px 12px 27px 15px;}
+a#logo:hover {text-decoration:none; color: #777 !important; }
 
 /*  USer tools
 --------------------------------------------------------------*/
@@ -39,6 +42,11 @@ ul.messagelist li {
     color:#666;
 }
 .row1 {background:#F2F2F2}
+
+
+/* Lighten up errorlist colors
+----------------------------------------------------------- */
+.errorlist li {background-color:#DE5959; }
 
 
 /* Enlarge password change link in user admin dialog
@@ -154,6 +162,9 @@ input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
 .login #container #header { padding-left:27px; width: auto;
     -webkit-border-radius: 4px 4px 0px 0px;-moz-border-radius: 4px 4px 0px 0px;border-radius: 4px 4px 0px 0px;}
 .login #container #content{margin:0px; padding:0px;}
+
+.login a#logo {margin-left:0px; font-size:28px; }
+
 .login #footer {padding:0px;}
 .login .submit-row {padding:8px 0px 8px 27px; background:#F6F7F8; border-top:1px solid #eee; 
     -webkit-border-radius:  0px 0px 4px 4px;-moz-border-radius: 0px 0px 4px 4px;border-radius: 0px 0px 4px 4px;
