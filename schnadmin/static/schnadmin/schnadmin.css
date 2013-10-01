@@ -7,6 +7,7 @@ body.login {background: url(cork_1.png);}
 #content {background:#fff; padding:22px; margin:15px; margin-top:1px;}
 
 a#logo {font-size:33px; font-family:monospace; color: #646464 !important; display:block; margin:27px 12px 27px 15px;}
+a#logo span:after {content: 'django-productline';}
 a#logo:hover {text-decoration:none; color: #777 !important; }
 
 /*  USer tools
