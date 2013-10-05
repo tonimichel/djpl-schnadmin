@@ -148,6 +148,7 @@ input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
 
 #changelist-search input[type="submit"] {padding: 1px 10px 1px 10px !important;}
 #changelist #toolbar form #searchbar {padding:3px;}
+#changelist .actions label {display:inline;}
 
 
 /* The Login screen
