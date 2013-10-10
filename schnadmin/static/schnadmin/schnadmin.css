@@ -89,7 +89,7 @@ fieldset.collapsed h2 {background-color:#fff;}
 /* Breadcrumbs
 ----------------------------------------------------------- */
 div.breadcrumbs {
-    display:inline-block; margin-left:15px; padding:10px 22px 10px 22px; border:0px; font-size:14px;
+    display:inline-block; margin-left:15px; padding:8px 22px 8px 22px; border:0px; font-size:14px;
     opacity: 0.7;
 }
 
