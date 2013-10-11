@@ -12,6 +12,7 @@
 
 {% block admin_js %}
     {{ block.super }}
+    <script type="text/javascript" src="{{ STATIC_URL }}schnadmin/schnadmin.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}chosen/chosen.jquery.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
