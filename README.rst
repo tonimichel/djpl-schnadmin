@@ -1,25 +1,28 @@
 djpl-schnadmin
 ====================================
 
-A django-productline feature for a more fancy django admin interface.
+A django-productline that makes your django admin not look like 1999
 
 
 
 Installation
 ====================================
 
-1) clone this repo e.g.: ``git clone https://github.com/tonimichel/djpl-schnadmin.git`` and cd into it.
 
+.. code::
 
-2) Install the python package::
-
-    python setup.py install
+    pip install -e git+https://github.com/tonimichel/djpl-schnadmin.git#egg=djpl-schnadmin
 
 
 Usage
 ===================================
 
-Comming soon ... hopefuly
+
+To use *djpl-schnadmin* in your project you need to add it to your ``product.equation``.
+
+
+
+
 
 
 License
