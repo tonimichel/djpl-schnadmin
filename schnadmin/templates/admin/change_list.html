@@ -1,0 +1,12 @@
+{% overextends "admin/change_list.html" %}
+{% load i18n %}
+
+{% if not is_popup %}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    {# dont show app label breadcrumb #}
+    <a href="{% url 'admin:index' %}">{% trans 'Dashboard' %}</a>
+    &rsaquo; {{ cl.opts.verbose_name_plural|capfirst }}
+</div>
+{% endblock %}
+{% endif %}

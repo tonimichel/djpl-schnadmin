@@ -1,0 +1,13 @@
+{% overextends "admin/delete_selected_confirmation.html" %}
+
+{% load i18n l10n %}
+{% load admin_urls %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    {# dont show app label breadcrumb #}
+    <a href="{% url 'admin:index' %}">{% trans 'Dashboard' %}</a>
+    &rsaquo; <a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a>
+    &rsaquo; {% trans 'Delete multiple objects' %}
+</div>
+{% endblock %}
