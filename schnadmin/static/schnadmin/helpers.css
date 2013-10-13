@@ -24,8 +24,23 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
 .schnadmin-dashboard.small {width: 122px; height:122px;}
 .schnadmin-dashboard.large a{width: 222px; height:222px;}
 
- .schnadmin-dashboard a:hover{
+.schnadmin-dashboard a:hover{
     border-color: #999;
-     -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
- }
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
 
+/* Horizontal nav
+-------------------------------------------------------------------------------------------- */
+
+.schnadmin-hnav a {margin-right:44px; cursor:pointer; font-size:15px;}
+.schnadmin-hnav {border-bottom:1px solid #eee; padding-bottom:6px; margin: 12px 0px 22px 0px;}
+
+
+/* boxes
+-------------------------------------------------------------------------------------------- */
+
+.error-box {display:block; padding:22px; background:#f5f5f5; border: 2px solid #DE5959; }
+.error-box h1,.error-box h2 {margin-top:0px;}
+
+.info-box {display:block; padding:22px; background:#f5f5f5; border: 2px solid #ddd;}
+.info-box h1,.info-box h2 {margin-top:0px;}
