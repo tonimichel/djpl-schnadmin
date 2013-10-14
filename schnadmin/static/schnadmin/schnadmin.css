@@ -128,7 +128,7 @@ input[type="checkbox"] {margin-top:-1px;}
 label {}
 
 .aligned label {padding: 9px 10px 0 0; width: 15em; font-size:100%;}
-form .aligned p, form .aligned ul { margin-left: 15em}
+form .aligned p.help, form .aligned ul { margin-left: 15em}
 
 form .aligned p.help {padding-left: 26px;}
 
