@@ -44,3 +44,45 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
 
 .info-box {display:block; padding:22px; background:#f5f5f5; border: 2px solid #ddd;}
 .info-box h1,.info-box h2 {margin-top:0px;}
+
+
+
+/* schnadmin.ui.dropdown
+-------------------------------------------------------------------------------------------- */
+
+        .schnadmin-dropdown {position:relative; display:inline-block; }    
+        .schnadmin-dropdown-label {
+            padding: 0 12px 0 12px;
+            text-align:left;
+            line-height: 32px;
+            min-height: 32px;
+            position: relative; background:#eee;
+            cursor: pointer; color: #5b80b2;
+            border: 1px solid #ccc;
+        }
+        
+        .schnadmin-dropdown-label:after {content: "▼"; font-size:12px;}
+        
+        .schnadmin-dropdown-links {
+            position: absolute;
+            background: #fbfbfb;
+            border: 1px solid #ccc; 
+            opacity: 0.95;
+            right: 0;
+            top: 35px;
+            z-index: 100;
+            display: none; min-width:100px;
+        }
+        
+        
+        .schnadmin-dropdown-links a {
+            line-height: 18px;
+            display: block;
+            padding: 6px 12px 6px 12px !important;
+            cursor: pointer;
+            color: #666;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+         .schnadmin-dropdown-links a:hover {background: #eee; text-decoration:none !important;}
+
