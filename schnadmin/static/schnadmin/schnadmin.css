@@ -1,7 +1,7 @@
 body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: url(cork_1.png);}
 body.login {background: url(cork_1.png);}
 
-#header {background: transparent; color: #646464;}
+#header {background: transparent; color: #646464; padding-top:30px; }
 #header a:link,
 #header a:visited {color: #5b80b2;}
 #content {background:#fff; padding:22px; margin:15px; margin-top:1px;}
@@ -12,8 +12,9 @@ a#logo:hover {text-decoration:none; color: #777 !important; }
 
 /*  USer tools
 --------------------------------------------------------------*/
-#user-tools {color: #666; background:#fff; opacity:0.7;  padding:6px 22px 6px 22px;}
-
+#user-tools {color: #666; background:#fff; opacity:0.7;  padding:0px; background:#eee; height:30px;left:0px; 
+    line-height:30px; border-bottom:1px solid #ddd;}
+#user-tools a {padding:6px;}
 
 
 /* Message list
