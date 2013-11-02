@@ -5,9 +5,9 @@
 
 {% block extrahead %}
     {{ block.super  }}
-    <script>
+    <script type="text/javascript">
          $(function() {
-             $('ul.messagelist').fadeOut(10000)
+                schnadmin.ui.message_fadeout()
          })
     </script>
 {% endblock %}
