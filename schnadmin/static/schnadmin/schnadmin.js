@@ -7,6 +7,29 @@ schnadmin.ui.make_dropdown = function(selector, schema) {
     $(selector).html(schnadmin.ui.dropdown(schema).render())
 }
 
+
+schnadmin.ui.message = function(msg) {
+
+    var messagelist = $('.messagelist')
+    
+    if (messagelist.length == 0) {
+        messagelist = $('<ul class="messagelist"></ul>')
+        $('.breadcrumbs').after(messagelist)
+    }    
+    messagelist.show()    
+    messagelist.append('<li>' + msg + '</li>')
+    schnadmin.ui.message_fadeout()
+}
+
+schnadmin.ui.message_fadeout = function() {
+    $('ul.messagelist').fadeOut(10000, function() {
+        $(this).remove()
+    })
+    
+}
+
+
+
 /**
 *   A fancy schnadmin dropdown menu
 */
