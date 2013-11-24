@@ -20,6 +20,7 @@
                 var elem = $(this)
                 elem.closest('.form-row').css('overflow', 'visible')
                 elem.chosen()
+                elem.parent().find('.help').remove()
             })
         })
     </script>
