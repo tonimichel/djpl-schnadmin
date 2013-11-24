@@ -61,7 +61,7 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
 /* schnadmin.ui.dropdown
 -------------------------------------------------------------------------------------------- */
 
-        .schnadmin-dropdown {position:relative; display:inline-block; }    
+        .schnadmin-dropdown {position:relative; display:inline-block; z-index:222;}    
         .schnadmin-dropdown-label {padding: 0 12px 0 12px; text-align:left;
             line-height: 32px;
             min-height: 32px;
@@ -73,7 +73,7 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
         .schnadmin-dropdown-label:after {content: "▼"; font-size:12px;}
         
         .schnadmin-dropdown-links {
-            position: absolute;
+            position: absolute; 
             background: #fbfbfb;
             border: 1px solid #ccc; 
             opacity: 0.95;
