@@ -13,7 +13,7 @@ a#logo:hover {text-decoration:none; color: #777 !important; }
 /*  USer tools
 --------------------------------------------------------------*/
 #user-tools {color: #666; background:#fff; opacity:0.7;  padding:0px; background:#eee; height:30px;left:0px; 
-    line-height:30px; border-bottom:1px solid #ddd;}
+    line-height:30px; border-bottom:1px solid #ddd; z-index:2;}
 #user-tools a {padding:6px;}
 
 
@@ -40,6 +40,12 @@ ul.messagelist li {padding:8px 22px 8px 22px; border:0px; background-position-y:
 .row1 {background:#F2F2F2}
 
 
+#result_list th a {font-weight:bold;}
+#result_list th .buttons,
+#result_list td .buttons {margin-left:5px; display:inline; float:right;}
+
+#result_list th a:hover {text-decoration:underline;}
+
 /* Lighten up errorlist colors
 ----------------------------------------------------------- */
 .errorlist li {background-color:#DE5959; }
@@ -53,7 +59,7 @@ ul.messagelist li {padding:8px 22px 8px 22px; border:0px; background-position-y:
 /* chosen stuff
 ----------------------------------------------------------- */
 
-.chzn-container {width:70% !important; font-size:11px !important;}
+.chzn-container { font-size:11px !important;}
 
 /* increase padding
 ----------------------------------------------------------- */
@@ -79,6 +85,9 @@ fieldset.collapsed h2 {background-color:#fff;}
 
 #changelist table thead th {padding:2px;}
 
+
+
+
 /* Style headlines
 ----------------------------------------------------------- */
 
@@ -90,9 +99,12 @@ fieldset.collapsed h2 {background-color:#fff;}
 /* Breadcrumbs
 ----------------------------------------------------------- */
 div.breadcrumbs {
+    z-index:3;
     display:inline-block; margin-left:15px; padding:8px 22px 8px 22px; border:0px; font-size:14px;
-    opacity: 0.7;
+    opacity: 0.7; font-size:17px; 
 }
+div.breadcrumbs a {font-weight:bold;}
+
 
 
 /* ADMIN INLINES
