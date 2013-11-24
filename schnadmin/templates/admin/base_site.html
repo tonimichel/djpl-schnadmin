@@ -15,3 +15,13 @@
 {% block branding %}
     <a href="{{ ADMIN_URL }}" id="logo" ><span></span></a>
 {% endblock %}
+
+{% block content_title %}
+    {{ block.super }}
+    
+    <div id="site-info">
+    {% block site_info %}
+    {% endblock %}
+    </div>
+
+{% endblock %}
