@@ -23,6 +23,14 @@
                 elem.chosen()
                 elem.parent().find('.help').remove()
             })
+            // in case the a related object was added via popup, update the chosen field            
+            var super_dismissAddAnotherPopup =  dismissAddAnotherPopup
+            dismissAddAnotherPopup = function(win, newId, newRepr) {
+                super_dismissAddAnotherPopup(win, newId, newRepr)
+                $('.chosen').each(function() {
+                    $(this).trigger("chosen:updated")
+                })
+            }
         })
     </script>
     
