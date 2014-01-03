@@ -1,6 +1,6 @@
 
 
-table.object-list {min-width: 600px;}
+table.object-list {min-width: 600px; text-align:left;}
 table.object-list tr td,
 table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
 
