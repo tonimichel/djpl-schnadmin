@@ -1,6 +1,6 @@
 
 
-table.object-list {min-width: 600px;}
+table.object-list {min-width: 600px; text-align:left;}
 table.object-list tr td,
 table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
 
@@ -53,7 +53,7 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
 .schnadmin-tabs a {display:block; float:left; padding: 12px 22px 12px 22px; background: #f5f5f5;
     border-right:1px solid #ddd; border-left: 1px solid #fff; border-top: 1px solid #ddd; cursor:pointer;
 }
-.schnadmin-tabs a.active {padding-bottom:13px; background:#fff;}
+.schnadmin-tabs a.active {padding-bottom:13px; background:#fff; font-weight:bold;}
 
 
 

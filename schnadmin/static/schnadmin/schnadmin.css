@@ -63,7 +63,8 @@ ul.messagelist li {padding:8px 22px 8px 22px; border:0px; background-position-y:
 /* chosen stuff
 ----------------------------------------------------------- */
 
-.chzn-container { font-size:11px !important;}
+.chzn-container { font-size:11px !important; }
+.chosen-container {min-width: 177px !important;}
 
 
 /* increase padding
