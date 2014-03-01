@@ -51,7 +51,7 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
 
 .schnadmin-tabs {height:37px; border-left:1px solid #ddd; border-bottom: 1px solid #ddd; margin-bottom:10px;}
 .schnadmin-tabs a {display:block; float:left; padding: 12px 22px 12px 22px; background: #f5f5f5;
-    border-right:1px solid #ddd; border-left: 1px solid #fff; border-top: 1px solid #ddd;
+    border-right:1px solid #ddd; border-left: 1px solid #fff; border-top: 1px solid #ddd; cursor:pointer;
 }
 .schnadmin-tabs a.active {padding-bottom:13px; background:#fff;}
 
