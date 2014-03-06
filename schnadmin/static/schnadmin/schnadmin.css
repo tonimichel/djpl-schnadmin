@@ -66,6 +66,8 @@ h1, h2, h3 {line-height:1.4;}
 .chzn-container { font-size:11px !important; }
 .chosen-container {min-width: 177px !important;}
 
+#changelist-filter .chosen-container {min-width: 160px !important;}
+
 
 /* increase padding
 ----------------------------------------------------------- */
