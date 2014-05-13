@@ -92,7 +92,8 @@ fieldset.collapsed h2 {background-color:#fff;}
 
 
 #changelist table thead th {padding:2px;}
-
+#changelist table th,
+#changelist table td {vertical-align:top;}
 
 
 
