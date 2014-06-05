@@ -8,8 +8,6 @@
 {% endblock %}
 
 
-
-
 {% block admin_js %}
     {{ block.super }}
     <script type="text/javascript" src="{{ STATIC_URL }}schnadmin/schnadmin.js"></script>
@@ -40,6 +38,13 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('body').addClass('django-admin')
+        })
+    </script>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            schnui.enable()
         })
     </script>
 {% endblock %}

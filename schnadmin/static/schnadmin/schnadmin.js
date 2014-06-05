@@ -93,4 +93,32 @@ schnadmin.ui.dropdown = function(schema) {
     return self
 }
 
+
+
+
+var schnui = {}
+
+schnui.enable = function() {
+    $('.schnui-note.schnui-note-trigger').each(function() {
+        var c = $(this).next()
+        c.hide()
+        
+        $(this).click(function() {
+            c.toggle('blind')
+            
+        })
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
     
