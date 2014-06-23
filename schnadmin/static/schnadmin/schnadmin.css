@@ -193,17 +193,6 @@ ul.messagelist li {margin:0px;}
     #changelist-search input[type="submit"] {padding: 1px 10px 1px 10px !important;}
     #changelist #toolbar form #searchbar {padding:3px;}
     
-    #changelist #toolbar {
-        background: #ffffff; /* Old browsers */
-        background: -moz-linear-gradient(top,  #ffffff 0%, #f7f7f7 100%, #207cca 100%); /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7), color-stop(100%,#207cca)); /* Chrome,Safari4+ */
-        background: -webkit-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%,#207cca 100%); /* Chrome10+,Safari5.1+ */
-        background: -o-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%,#207cca 100%); /* Opera 11.10+ */
-        background: -ms-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%,#207cca 100%); /* IE10+ */
-        background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%,#207cca 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
-    }
-    #changelist .actions {background: #f7f7f7}
     
     #changelist .actions label {display:inline;}
     #changelist-search {padding-left:4px;}
