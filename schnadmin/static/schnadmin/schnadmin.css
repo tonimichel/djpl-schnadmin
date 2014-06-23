@@ -52,14 +52,19 @@ h1, h2, h3 {line-height:1.4;}
         background-image: linear-gradient(to bottom, #eee, #ccc);
         color:#666;
     }
-    .row1 {background:#F2F2F2}
+    .row2 {    background: #fbfbfb;     }
+    .row1 {background:#fff}
 
-
-    #result_list th a {font-weight:bold;}
+    #result_list thead th a {font-size:15px;}
+    
+    #result_list th a {font-weight:bold; }
+    #result_list  th {border-bottom:2px solid #ccc;}
     #result_list th .buttons,
     #result_list td .buttons {margin-left:5px; display:inline; float:right;}
 
-    #result_list th a:hover {text-decoration:underline;}
+    #result_list th a:hover {text-decoration:underline; background:#f7f7f7}
+    
+      #result_list thead th, tfoot td  {background:#f7f7f7;}
 
 /* Lighten up errorlist colors
 ----------------------------------------------------------- */
@@ -82,8 +87,8 @@ h1, h2, h3 {line-height:1.4;}
 
 /* increase padding
 ----------------------------------------------------------- */
-.module table td {padding:10px; background:#F5F5F5; border-bottom:1px solid #eee;}
-.module table th {padding:10px; font-weight:normal; background:#fbfbfb; border-bottom:1px solid #eee; }
+.module table td {padding:12px;  border-bottom:1px solid #eee;}
+.module table th {padding:12px; font-weight:normal;  border-bottom:1px solid #eee; }
 .module h2, .module caption, .inline-group h2 {padding: 10px 5px 10px 12px; }
 .inline-related h3{padding-left:12px;}
 
@@ -102,9 +107,6 @@ fieldset.collapsed h2 {background-color:#fff;}
 #content-related .module h2 {background-color:#fff;}
 
 
-#changelist table thead th {padding:2px;}
-#changelist table th,
-#changelist table td {vertical-align:top;}
 
 
 
@@ -190,8 +192,32 @@ ul.messagelist li {margin:0px;}
 
     #changelist-search input[type="submit"] {padding: 1px 10px 1px 10px !important;}
     #changelist #toolbar form #searchbar {padding:3px;}
+    
+    #changelist #toolbar {
+        background: #ffffff; /* Old browsers */
+        background: -moz-linear-gradient(top,  #ffffff 0%, #f7f7f7 100%, #207cca 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7), color-stop(100%,#207cca)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%,#207cca 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%,#207cca 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%,#207cca 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%,#207cca 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+    }
+    #changelist .actions {background: #f7f7f7}
+    
     #changelist .actions label {display:inline;}
-
+    #changelist-search {padding-left:4px;}
+    #changelist-search label {display:inline;}
+    
+        
+    #changelist table th,
+    #changelist table tbody td, #changelist table tbody th{vertical-align:top; border:0px; border-bottom:1px solid #ddd;}
+    #changelist table tbody td:first-child, #changelist table tbody th:first-child {border-right:0px;}
+    
+  
+    #changelist table thead th {padding:4px;}
+    
+    
     form .aligned p, form .aligned ul {margin-left:147px;}
 
 
