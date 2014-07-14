@@ -161,7 +161,7 @@ ul.messagelist li {margin:0px;}
 
     fieldset .description {padding: 22px 12px 22px 12px;background: whiteSmoke; border-bottom: 1px solid #EEE;}
 
-    .form-row { background:#fbfbfb; }
+    .django-admin .form-row { background:#fbfbfb; padding: 8px 12px;}
 
     input[type="text"], 
     input[type="password"], textarea {
