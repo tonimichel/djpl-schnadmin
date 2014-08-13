@@ -46,14 +46,29 @@ h1, h2, h3 {line-height:1.4;}
     .dashboard #content-main {width:500px;}
     .dashboard .module {margin-bottom:10px;}
 
+
+/* INLINES
+--------------------------------------------------------------*/
+
+    .inline-related h3 {background: #f5f5f5; border-top:1px solid #fff;}
+
     .module h2, .module caption, .inline-group h2 {
-        background-image: -moz-linear-gradient(top, #eee, #ccc);
-        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#ccc));
-        background-image: -webkit-linear-gradient(top, #eee, #ccc);
-        background-image: -o-linear-gradient(top, #eee, #ccc);
-        background-image: linear-gradient(to bottom, #eee, #ccc);
+        background-image: -moz-linear-gradient(top, #eee, #f5f5f5);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#f5f5f5));
+        background-image: -webkit-linear-gradient(top, #eee, #f5f5f5);
+        background-image: -o-linear-gradient(top, #eee, #f5f5f5);
+        background-image: linear-gradient(to bottom, #eee, #f5f5f5);
+        border-top:1px solid #fff;
+        border-bottom:0px dashed #eee;
         color:#666;
+       -webkit-box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.5);
+    box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.5);
     }
+    
+    fieldset.collapsed h2 {background-color:#fff;}
+    fieldset.module {border-top:1px solid #ddd;; border-bottom:0px;}
+    
     .row2 {    background: #fbfbfb;     }
     .row1 {background:#fff}
 
@@ -89,8 +104,10 @@ h1, h2, h3 {line-height:1.4;}
 
 /* increase padding
 ----------------------------------------------------------- */
-.module table td {padding:12px;  border-bottom:1px solid #eee;}
-.module table th {padding:12px; font-weight:normal;  border-bottom:1px solid #eee; }
+.module table td {padding:12px;  border-bottom:1px solid #eee; vertical-align:top;}
+.module table th {padding:12px; font-weight:normal;  border-bottom:1px solid #eee;
+     background:#f5f5f5;
+}
 .module h2, .module caption, .inline-group h2 {padding: 10px 5px 10px 12px; }
 .inline-related h3{padding-left:12px;}
 
@@ -104,7 +121,7 @@ a.section:visited {color: #666;}
 .submit-row {margin-top:0px; border-color:#eee;}
 
 
-fieldset.collapsed h2 {background-color:#fff;}
+
 
 #content-related .module h2 {background-color:#fff;}
 
