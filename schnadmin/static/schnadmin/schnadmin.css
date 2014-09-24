@@ -1,6 +1,6 @@
 
-body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: url(retina_wood.png);}
-body.login {background: url(retina_wood.png);}
+body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: url(grey_wash_wall.png);}
+body.login {background: url(grey_wash_wall.png);}
 
 #header {background: transparent; color: #646464; padding-top:30px; }
 #header a:link,
@@ -55,7 +55,7 @@ h1, h2, h3 {line-height:1.4;}
 
     .inline-related h3 {background: #f5f5f5; border-top:1px solid #fff;}
 
-    .module h2, .module caption, .inline-group h2 {
+    .module h2, .module caption, .inline-group h2, fieldset.collapsed h2 {
         background-image: -moz-linear-gradient(top, #eee, #f5f5f5);
         background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#f5f5f5));
         background-image: -webkit-linear-gradient(top, #eee, #f5f5f5);
@@ -64,12 +64,13 @@ h1, h2, h3 {line-height:1.4;}
         border-top:1px solid #fff;
         border-bottom:0px dashed #eee;
         color:#666;
-       -webkit-box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.5);
-    box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.5);
+       -webkit-box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.1);
+    box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.1);
     }
+   
     
-    fieldset.collapsed h2 {background-color:#fff;}
+    
     fieldset.module {border-top:1px solid #ddd;; border-bottom:0px;}
     
     .row2 {    background: #fbfbfb;     }
