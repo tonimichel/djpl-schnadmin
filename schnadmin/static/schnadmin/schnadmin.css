@@ -1,4 +1,12 @@
 
+.inline-group .tabular td.original p {height:auto;}
+.btn:link, .btn:visited {color:#fff;}
+
+.dropdown-menu li {list-style:none;}
+
+
+
+
 body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: url(grey_wash_wall.png);}
 body.login {background: url(grey_wash_wall.png);}
 
@@ -27,6 +35,8 @@ body.login {background: url(grey_wash_wall.png);}
 
 h1, h2, h3 {line-height:1.4;}
 
+
+.calendarbox, .clockbox  {width:auto;}
 
 /*  USer tools
 --------------------------------------------------------------*/
@@ -102,6 +112,10 @@ h1, h2, h3 {line-height:1.4;}
 
 .chzn-container { font-size:11px !important; }
 .chosen-container {min-width: 177px !important;}
+
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    height:auto;
+}
 
 #changelist-filter .chosen-container {min-width: 160px !important;}
 
