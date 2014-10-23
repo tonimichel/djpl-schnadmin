@@ -5,7 +5,7 @@
 {% block breadcrumbs %} 
 <div class="breadcrumbs">
     {# dont show app label breadcrumb #}
-    <a href="{% url 'admin:index' %}">{% trans 'Übersicht' %}</a>
+    <a href="{% url 'admin:index' %}">Dashboard</a>
     &rsaquo; {{ cl.opts.verbose_name_plural|capfirst }}
 </div>
 {% endblock %}

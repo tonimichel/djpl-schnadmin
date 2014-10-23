@@ -13,7 +13,7 @@
 {% block breadcrumbs %}
 <div class="breadcrumbs">
     {# dont show app label breadcrumb #}
-    <a href="{% url 'admin:index' %}">{% trans 'Dashboard' %}</a>
+    <a href="{% url 'admin:index' %}">Dashboard</a>
     &rsaquo; {% if has_change_permission %}<a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a>{% else %}{{ opts.verbose_name_plural|capfirst }}{% endif %}
     &rsaquo; {% if add %}{% trans 'Add' %} {{ opts.verbose_name }}{% else %}{{ original|truncatewords:"18" }}{% endif %}
 </div>
