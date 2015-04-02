@@ -7,7 +7,7 @@
 
 
 
-body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: url(grey_wash_wall.png);}
+body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: #eee;}
 body.login {background: url(grey_wash_wall.png);}
 
 #header {background: transparent; color: #646464; padding-top:30px; }
