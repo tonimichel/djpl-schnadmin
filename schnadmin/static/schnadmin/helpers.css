@@ -57,6 +57,9 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
 
 
 
+.alert, .alert ul li {font-size:15px; line-height:1.4;}
+.alert h2 {margin-top:0px;}
+.alert a { text-decoration:underline;}
 
 /* schnadmin.ui.dropdown
 -------------------------------------------------------------------------------------------- */
