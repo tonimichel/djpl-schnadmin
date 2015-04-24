@@ -10,7 +10,7 @@
 body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: #eee;}
 body.login {background: url(grey_wash_wall.png);}
 
-#header {background: transparent; color: #646464; padding-top:30px; }
+#header {background: transparent; color: #646464; padding-top:30px; margin-bottom:20px; }
 #header a:link,
 #header a:visited {color: #5b80b2;}
 #content {background:#fff; padding:22px; margin:15px; margin-top:1px;
@@ -40,11 +40,20 @@ h1, h2, h3 {line-height:1.4;}
 
 /*  USer tools
 --------------------------------------------------------------*/
-     #user-tools {color: #666; background:#fff; opacity:0.7;  padding:5px; background:#eee; height:30px; 
-        line-height:30px; border-bottom:1px solid #ddd; z-index:2;
-        position: absolute;        right: 0px;        top: 0px;
-    }
     #user-tools a {padding:6px;}
+   
+    #user-tools {
+        color: #666;
+        background: #fff;
+        opacity: 0.7;
+        padding: 2px 25px;
+        /* height: 30px; */
+        line-height: 30px;
+        border-bottom: 1px solid #ddd;
+        z-index: 2;
+        position: absolute;
+        right: 15px;
+        top: 0px; }
 
 
 /* Message list
