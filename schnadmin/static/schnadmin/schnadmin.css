@@ -1,6 +1,6 @@
 
 .inline-group .tabular td.original p {height:auto;}
-.btn:link, .btn:visited {color:#fff;}
+/*.btn:link, .btn:visited {color:#fff;}*/
 
 .dropdown-menu li {list-style:none;}
 
@@ -88,7 +88,16 @@ h1, h2, h3 {line-height:1.4;}
     box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.1);
     }
    
+    fieldset {margin:0px; padding:1px;}
     
+    .submit-row {
+        padding: 5px 7px;
+        text-align: right;
+        background: #fbfbfb;
+        border: 1px solid #ddd;
+        margin: 0px 0;
+        overflow: hidden;
+    }
     
     fieldset.module {border-top:1px solid #ddd;; border-bottom:0px;}
     
@@ -148,7 +157,7 @@ a.section:visited {color: #666;}
 .module, .inline-group {border: 1px solid #ddd;}
 .inline-group {margin:0px;}
 .module {margin-bottom:0px;}
-.submit-row {margin-top:0px; border-color:#eee;}
+
 
 
 
@@ -208,7 +217,7 @@ ul.messagelist li {margin:0px;}
 
     fieldset .description {padding: 22px 12px 22px 12px;background: whiteSmoke; border-bottom: 1px solid #EEE;}
 
-    .django-admin .form-row { background:#fbfbfb; padding: 8px 12px;}
+    .django-admin .form-row { background:#fbfbfb; padding: 8px 12px; border-top:1px solid #fff;}
     
     input[readonly="readonly"],
     input[readonly="readonly"]:focus {background:#ddd;}
