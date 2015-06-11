@@ -12,7 +12,7 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
     .schnadmin-dashboard a {width: 166px; height:166px;
         font: 12px Helvetica, Arial, sans-serif;text-decoration: none; letter-spacing:normal; color: #666;font-weight:bold;
         background: #f3f3f3; background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
-        background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1)); background-repeat:no-repeat; 
+        background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1)); background-repeat:no-repeat;
         padding: 6px 12px 7px 12px; margin: 0px 10px 10px 0px;
         position: relative; display: inline-block;
         text-shadow: 0 1px 0 #fff; letter-spacing: normal;
@@ -57,14 +57,14 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
 
 
 
-.alert, .alert ul li {font-size:15px; line-height:1.4;}
+.alert, .alert ul li { line-height:1.4;}
 .alert h2 {margin-top:0px;}
 .alert a { text-decoration:underline;}
 
 /* schnadmin.ui.dropdown
 -------------------------------------------------------------------------------------------- */
 
-        .schnadmin-dropdown {position:relative; display:inline-block; z-index:222;}    
+        .schnadmin-dropdown {position:relative; display:inline-block; z-index:222;}
         .schnadmin-dropdown-label {padding: 0 12px 0 12px; text-align:left;
             line-height: 32px;
             min-height: 32px;
@@ -72,21 +72,21 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
             cursor: pointer; color: #5b80b2;
             border: 1px solid #ccc;
         }
-        
+
         .schnadmin-dropdown-label:after {content: "▼"; font-size:12px;}
-        
+
         .schnadmin-dropdown-links {
-            position: absolute; 
+            position: absolute;
             background: #fbfbfb;
-            border: 1px solid #ccc; 
+            border: 1px solid #ccc;
             opacity: 0.95;
             right: 0;
             top: 35px;
             z-index: 100;
             display: none; min-width:100px;
         }
-        
-        
+
+
         .schnadmin-dropdown-links a {
             line-height: 18px;
             display: block;
@@ -97,7 +97,7 @@ table.object-list tr th {padding: 12px; border-bottom: 1px solid #ddd;}
             border-bottom: 1px solid #ddd;
         }
          .schnadmin-dropdown-links a:hover {background: #eee; text-decoration:none !important;}
-         
+
 /* schn-info
 -------------------------------------------------------------------------------------------*/
     .schnui-note {
@@ -127,5 +127,3 @@ box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.16);
 -moz-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.16);
 -webkit-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.16);
     }
-
-
