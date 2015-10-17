@@ -1,5 +1,5 @@
 
-.inline-group .tabular td.original p {height:auto;}
+
 /*.btn:link, .btn:visited {color:#fff;}*/
 
 .dropdown-menu li {list-style:none;}
@@ -41,7 +41,7 @@ h1, h2, h3 {line-height:1.4;}
 /*  USer tools
 --------------------------------------------------------------*/
     #user-tools a {padding:6px;}
-   
+
     #user-tools {
         color: #666;
         background: #fff;
@@ -71,9 +71,10 @@ h1, h2, h3 {line-height:1.4;}
 
 /* INLINES
 --------------------------------------------------------------*/
-
+    .inline-related {padding:12px 12px 12px 12px;  border:3px solid #eee;;}
+    .add-row {margin: 0px 12px 12px 12px;}
     .inline-related h3 {background: #f5f5f5; border-top:1px solid #fff;}
-
+    .inline-group .tabular td.original p {height:auto;}
     .module h2, .module caption, .inline-group h2, fieldset.collapsed h2 {
         background-image: -moz-linear-gradient(top, #eee, #f5f5f5);
         background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#f5f5f5));
@@ -87,9 +88,11 @@ h1, h2, h3 {line-height:1.4;}
     -moz-box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.1);
     box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.1);
     }
-   
+    .inline-group div.add-row, .inline-group .tabular tr.add-row td {background:#fff; border:0px;}
+
+
     fieldset {margin:0px; padding:1px;}
-    
+
     .submit-row {
         padding: 5px 7px;
         text-align: right;
@@ -98,21 +101,21 @@ h1, h2, h3 {line-height:1.4;}
         margin: 0px 0;
         overflow: hidden;
     }
-    
+
     fieldset.module {border-top:1px solid #ddd;; border-bottom:0px;}
-    
+
     .row2 {    background: #fbfbfb;     }
     .row1 {background:#fff}
 
     #result_list thead th a {font-size:15px;}
-    
+
     #result_list th a {font-weight:bold; }
     #result_list  th {border-bottom:2px solid #ccc;}
     #result_list th .buttons,
     #result_list td .buttons {margin-left:5px; display:inline; float:right;}
 
     #result_list th a:hover {text-decoration:underline;}
-    
+
       #result_list thead th, tfoot td  {background:#f7f7f7;}
 
 /* Lighten up errorlist colors
@@ -142,7 +145,7 @@ h1, h2, h3 {line-height:1.4;}
 ----------------------------------------------------------- */
 .module table td {padding:12px;  border-bottom:1px solid #eee; vertical-align:top;}
 .module table th {padding:12px; font-weight:normal;  border-bottom:1px solid #eee;
-     
+
 }
 .module table thead  th {background:#f5f5f5;}
 
@@ -181,7 +184,7 @@ a.section:visited {color: #666;}
 div.breadcrumbs {
     z-index:3;
     display:inline-block; margin-left:15px; padding:8px 22px 8px 22px; border:0px; font-size:14px;
-    opacity: 0.7; font-size:17px; 
+    opacity: 0.7; font-size:17px;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.16);
     -webkit-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.16);
@@ -213,17 +216,17 @@ ul.messagelist li {margin:0px;}
 
     form  h2 {font-size:16px !important;}
 
-    fieldset.module h2 { font-size:16px;} 
+    fieldset.module h2 { font-size:16px;}
 
     fieldset .description {padding: 22px 12px 22px 12px;background: whiteSmoke; border-bottom: 1px solid #EEE;}
 
     .django-admin .form-row { background:#fbfbfb; padding: 8px 12px; border-top:1px solid #fff;}
-    
+
     input[readonly="readonly"],
     input[readonly="readonly"]:focus {background:#ddd;}
 
-    textarea, input[type="text"], input[type="password"], input[type="datetime"], 
-    input[type="datetime-local"], input[type="date"]:focus, input[type="month"], 
+    textarea, input[type="text"], input[type="password"], input[type="datetime"],
+    input[type="datetime-local"], input[type="date"]:focus, input[type="month"],
     input[type="time"], input[type="week"]:focus, input[type="number"],
     input[type="email"], input[type="url"], input[type="search"],
     input[type="tel"], input[type="color"] {
@@ -242,8 +245,8 @@ ul.messagelist li {margin:0px;}
     .required label, label.required {color: #888 !important;}
 
     /* focus */
-    textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, 
-    input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, 
+    textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus,
     input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus,
     input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus,
     input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
@@ -253,27 +256,27 @@ ul.messagelist li {margin:0px;}
         box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
         background:#fbfbfb;
     }
-    
+
     input[readonly="readonly"],
     input[readonly="readonly"]:focus {background:#ddd; border-color:#ccc;}
 
     #changelist-search input[type="submit"] {padding: 1px 10px 1px 10px !important;}
     #changelist #toolbar form #searchbar {padding:3px;}
-    
-    
+
+
     #changelist .actions label {display:inline;}
     #changelist-search {padding-left:4px;}
     #changelist-search label {display:inline;}
-    
-        
+
+
     #changelist table th,
     #changelist table tbody td, #changelist table tbody th{vertical-align:top; border:0px; border-bottom:1px solid #ddd;}
     #changelist table tbody td:first-child, #changelist table tbody th:first-child {border-right:0px;}
-    
-  
+
+
     #changelist table thead th {padding:4px;}
-    
-    
+
+
     form .aligned p, form .aligned ul {margin-left:147px;}
 
 
@@ -294,7 +297,7 @@ border-radius: 3px;
 .login a#logo {margin-left:0px; font-size:28px; color:#646464; }
 
 .login #footer {padding:0px;}
-.login .submit-row {padding:8px 0px 8px 27px; background:#F6F7F8; border-top:1px solid #eee; 
+.login .submit-row {padding:8px 0px 8px 27px; background:#F6F7F8; border-top:1px solid #eee;
     -webkit-border-radius:  0px 0px 4px 4px;-moz-border-radius: 0px 0px 4px 4px;border-radius: 0px 0px 4px 4px;
 }
 .login form {margin:0px;}
@@ -328,13 +331,13 @@ border-radius: 3px;
 
 
 
-.submit-row input[type="submit"], 
+.submit-row input[type="submit"],
 .submit-row input[type="button"],
 input[type="submit"], input[type="button"],
-.submit-row a.deletelink, 
-.django-admin .object-tools li a:link, 
+.submit-row a.deletelink,
+.django-admin .object-tools li a:link,
 .django-admin .object-tools li a:visited {
-    padding: 12px 22px 12px 22px !important;font-size: 12px;line-height: 18px;text-align: center; 
+    padding: 12px 22px 12px 22px !important;font-size: 12px;line-height: 18px;text-align: center;
     vertical-align: middle; cursor: pointer; color: #333; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     background-color: whiteSmoke;
     background-image: -moz-linear-gradient(top, white, #E6E6E6);
@@ -353,7 +356,7 @@ input[type="submit"], input[type="button"],
     box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
 }
 .submit-row p.deletelink-box {margin-top:0px;}
-.submit-row a.deletelink {display:block; 
+.submit-row a.deletelink {display:block;
     color: white; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); background-color: #DA4F49;
     background-image: -moz-linear-gradient(top, #EE5F5B, #BD362F);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EE5F5B), to(#BD362F));
@@ -362,7 +365,7 @@ input[type="submit"], input[type="button"],
     background-image: linear-gradient(to bottom, #EE5F5B, #BD362F);
 }
 
-.submit-row input[type="submit"]:hover, 
+.submit-row input[type="submit"]:hover,
 .submit-row input[type="button"]:hover,
 input[type="submit"]:hover, input[type="button"]:hover,
 .submit-row a.deletelink:hover,
@@ -407,8 +410,3 @@ input[type="submit"]:hover, input[type="button"]:hover,
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7ca217', endColorstr='#ff96c221', GradientType=0);
 }
-
-
-
-
-
