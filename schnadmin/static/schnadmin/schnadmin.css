@@ -1,13 +1,13 @@
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 /*.btn:link, .btn:visited {color:#fff;}*/
 
 .dropdown-menu li {list-style:none;}
 
+td, th {font-family: 'Open Sans', sans-serif;; font-size:13px;font-weight:300; line-height:1.4;}
+li {font-size:13px;}
 
-
-
-body {color: #646464; font-size:12px; font-family: arial, sans-serif; background: #eee;}
+body {color: #646464; font-size:13px; line-height:1.4; font-family: 'Open Sans', sans-serif; font-weight:100; background: #eee;}
 body.login {background: url(grey_wash_wall.png);}
 
 #header {background: transparent; color: #646464; padding-top:30px; margin-bottom:20px; }
@@ -174,8 +174,8 @@ a.section:visited {color: #666;}
 /* Style headlines
 ----------------------------------------------------------- */
 
-.django-admin h1 {font-weight:normal; font-size:28px; margin-bottom:12px; margin-top:22px;}
-.django-admin h2 {font-weight:normal; font-size:22px;}
+.django-admin h1 {font-weight:300; font-size:28px; margin-bottom:12px; margin-top:22px;}
+.django-admin h2 {font-weight:300; font-size:22px;}
 #recent-actions-module h2 {font-size: inherit;}
 
 
